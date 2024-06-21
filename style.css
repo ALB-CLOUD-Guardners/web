@@ -1,0 +1,354 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: white;
+}
+
+.navbar {
+    background-color: black;
+}
+.navbar-nav .nav-link {
+    color: white !important;
+}
+.dropdown-menu {
+    background-color: black;
+}
+.dropdown-item {
+    background-color: black;
+    color: white !important;
+}
+.dropdown-item:hover {
+    background-color: white;
+    color: black !important;
+}
+.contact-link {
+    color: white;
+}
+.contact-link:hover {
+    color: #ccc;
+}
+.navbar-hidden {
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+}
+.navbar-visible {
+    transform: translateY(0);
+    transition: transform 0.3s;
+}
+
+.hero {
+    background: url("/assets/images/homepage-background.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.hero p {
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    font-size: 1.25rem;
+}
+
+.hero .btn-primary {
+    background-color: #13cbf4;
+    border-color: #13cbf4;
+}
+
+.hero .btn-primary:hover {
+    background-color: #ffffff;
+    border-color: #0c007a;
+    color: black;
+}
+
+
+
+.btn-primary {
+    background-color: rgba(255, 158, 22, 1);
+}
+
+.btn-primary:hover {
+    background-color: white;
+    border-color: rgba(255, 158, 22, 1);
+    color: black;
+}
+
+.insight-card-section {
+    padding: 50px 0;
+    margin-top: -6%;
+}
+
+.insight-card {
+    background-color: #fff;
+    border: none;
+    color: black;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.insight-card .btn-link {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.insight-card .card-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.second-page-content {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.info-card {
+    background-color: white;
+    border: none;
+    color: black;
+    margin-bottom: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.info-card .card-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+.info-card .btn-outline-dark {
+    border-color: black;
+    color: black;
+}
+
+.info-card .btn-outline-dark:hover {
+    background-color: black;
+    color: white;
+}
+
+.third-page {
+    padding: 50px 0 0 0;
+}
+
+.third-page h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+}
+
+.third-page .carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.third-page .owl-carousel .item img {
+    display: block;
+    max-width: 100px;
+    max-height: 100px;
+    margin: auto;
+}
+
+.gradient-section {
+    color: #0e3382;
+}
+.gradient-text {
+    background: linear-gradient(45deg, #0e3382, #295bb5);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+.tabs-container {
+    margin-top: 30px;
+}
+.nav-tabs .nav-link {
+    color: #0e3382;
+    background-color: white;
+    border: 1px solid #0e3382;
+}
+.nav-tabs .nav-link.active {
+    color: white;
+    background-color: #0e3382;
+}
+.tab-content {
+    border: 1px solid #0e3382;
+    border-top: none;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.gradient-section .content-column {
+    text-align: left;
+}
+.gradient-section .content-column h3, .content-column h5, .content-column p {
+    color: #0e3382;
+}
+.gradient-section .content-column button {
+    background-color: #0e3382;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.gradient-section .content-column button:hover {
+    background-color: #295bb5;
+}
+
+.card-container {
+    position: relative;
+    margin: -50px auto 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-container img {
+    margin-right: 20px;
+    max-width: 200px;
+}
+
+.card-container h2, .card-container h5 {
+    margin: 0;
+    color: #0e3382;
+}
+
+.card-container button {
+    background-color: #0e3382;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.card-container button:hover {
+    background-color: #295bb5;
+    color: white;
+}
+
+.card-container a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.product-editions {
+    background-color: #1d489c;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+.product-editions .card {
+    background-color: white;
+    color: #1d489c;
+    border-radius: 10px;
+    margin: 15px;
+}
+.product-editions .card img {
+    max-width: 100px;
+    margin: 20px auto;
+}
+.product-editions .card h2 {
+    margin: 0;
+    padding: 0 15px;
+}
+.product-editions .card p {
+    padding: 0 15px;
+}
+.product-editions .card button {
+    background-color: #1d489c;
+    color: white;
+    border: none;
+    margin: 20px;
+    padding: 10px 20px;
+}
+.product-editions .card button:hover {
+    background-color: #163b73;
+}
+
+.gdn-section {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+    text-align: center;
+}
+.gdn-section h2 {
+    color: #0e3382;
+}
+.gdn-section h5 {
+    color: #1d489c;
+    margin-bottom: 30px;
+}
+.gdn-cards .card {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: left;
+}
+.gdn-cards .card img {
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+.gdn-cards .card h2 {
+    color: #0e3382;
+    font-size: 24px;
+}
+.gdn-cards .card p {
+    color: #1d489c;
+    font-size: 18px;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    .info-card {
+        padding: 15px;
+    }
+
+    .info-card .card-title {
+        font-size: 1.25rem;
+    }
+
+    .info-card .card-text {
+        font-size: 0.875rem;
+    }
+
+    .info-card .btn {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 0.875rem;
+    }
+}

@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gartner</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!-- Navbar -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="/index.html">
+                        <img src="./assets/images/logo.png" alt="Logo" width="100" height="100">
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/index.html">HOME</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="solutionsDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    SERVICES
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="solutionsDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="./pages/data-management.html">DATA MANAGEMENT & SECURITY</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./pages/electronic-security.html">ELECTRONIC SECURITY</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./pages/system-integrator.html">SYSTEM INTEGRATION</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./pages/ot-cybersecurity.html">OT CyberSecurity</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="industriesDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    INDUSTRIES
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="industriesDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="/pages/industries.html">Industry Solutions</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/pages/news.html">NEWS & INSIGHTS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/pages/about-us.html">ABOUT US</a>
+                            </li>
+                        </ul>
+                        <a
+                            class="contact-link nav-link"
+                            href="https://calendly.com/firstcybersecurity/30min">
+                            <i class="fas fa-envelope"></i>
+                            CONTACT US
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1>Container security with
+                            <span style="color: rgb(243, 161, 38);">built-in</span>
+                            network security</h1>
+                        <p>Secure networking and comprehensive protection for containers</p>
+                        <a class="btn btn-primary" href="#">Get Demo</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <img
+                            src="https://www.tigera.io/app/uploads/2024/06/Security-Posture-Overview.png"
+                            alt="Security Posture Overview"
+                            class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Insight Card -->
+        <section class="insight-card-section">
+            <div class="container">
+                <div class="card insight-card">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img
+                                src="https://www.tigera.io/app/uploads/2024/03/promo-bar-451-research-report.jpg"
+                                class="card-img"
+                                alt="451 Icon">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">S&P Global 451 Market Insight: Tigera Provides Most Comprehensive CNAPP</h5>
+                                <p class="card-text">Tigera establishes a strong position in the container and
+                                    open-source cloud ecosystems and differentiates itself from competitors by
+                                    focusing on runtime security.</p>
+                                <a href="#" class="btn btn-link">Download the Report ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Second Page Content -->
+        <section class="second-page-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card info-card text-center">
+                            <div class="card-body">
+                                <div class="card-icon mb-3">
+                                    <i><img src="./assets/icons/ebooks.svg"></i>
+                                </div>
+                                <h5 class="card-title">O’Reilly ebook: Kubernetes security and observability</h5>
+                                <p class="card-text">Adopt a holistic security and observability strategy to
+                                    secure cloud-native applications</p>
+                                <a href="#" class="btn btn-outline-dark">Download eBook</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card info-card text-center">
+                            <div class="card-body">
+                                <div class="card-icon mb-3">
+                                    <i><img style="width: 5rem;" src="./assets/icons/logo_gigaom.png"></i>
+                                </div>
+                                <h5 class="card-title">Tigera Named a Leader in Container Networking GigaOM</h5>
+                                <p class="card-text">GigaOM recognizes Calico for scalable container network security capabilities</p>
+                                <a href="#" class="btn btn-outline-dark">Read Full Report</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card info-card text-center">
+                            <div class="card-body">
+                                <div class="card-icon mb-3">
+                                    <i><img style="width: 5rem;" src="./assets/icons/videos.svg"></i>
+                                </div>
+                                <h5 class="card-title">Container and Kubernetes Security Self-paced Courses</h5>
+                                <p class="card-text">Learn how to address common security and observability
+                                    challenges–all at your own pace</p>
+                                <a href="#" class="btn btn-outline-dark">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Third Page Content-->
+        <section class="third-page">
+            <div class="container">
+                <div class="row text-center">
+                    <h2>Trusted by top global enterprises & startups</h2>
+                    <div class="carousel-container">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item"><img src="./assets/partners/logo-Discover.png" alt="Image 1"></div>
+                            <div class="item"><img src="./assets/partners/logo-Meridianlink.png" alt="Image 2"></div>
+                            <div class="item"><img src="./assets/partners/logo-Presidio.png" alt="Image 3"></div>
+                            <div class="item"><img src="./assets/partners/logo-upwork.png" alt="Image 4"></div>
+                            <div class="item"><img src="./assets/partners/logo-Discover.png" alt="Image 5"></div>
+                            <div class="item"><img src="./assets/partners/logo-Meridianlink.png" alt="Image 6"></div>
+                            <div class="item"><img src="./assets/partners/logo-Presidio.png" alt="Image 7"></div>
+                            <div class="item"><img src="./assets/partners/logo-Presidio.png" alt="Image 8"></div>
+                            <div class="item"><img src="./assets/partners/logo-Meridianlink.png" alt="Image 9"></div>
+                            <div class="item"><img src="./assets/partners/logo-upwork.png" alt="Image 10"></div>
+                            <div class="item"><img src="./assets/partners/logo-Discover.png" alt="Image 11"></div>
+                            <div class="item"><img src="./assets/partners/logo-Presidio.png" alt="Image 12"></div>
+                            <div class="item"><img src="./assets/partners/logo-upwork.png" alt="Image 13"></div>
+                            <div class="item"><img src="./assets/partners/logo-Discover.png" alt="Image 14"></div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-container mt-3">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item"><img src="./assets/partners/logo-Discover.png" alt="Image 1"></div>
+                            <div class="item"><img src="./assets/partners/logo-Meridianlink.png" alt="Image 2"></div>
+                            <div class="item"><img src="./assets/partners/logo-Presidio.png" alt="Image 3"></div>
+                            <div class="item"><img src="./assets/partners/logo-upwork.png" alt="Image 4"></div>
+                            <div class="item"><img src="./assets/partners/logo-Discover.png" alt="Image 5"></div>
+                            <div class="item"><img src="./assets/partners/logo-Meridianlink.png" alt="Image 6"></div>
+                            <div class="item"><img src="./assets/partners/logo-Presidio.png" alt="Image 7"></div>
+                            <div class="item"><img src="./assets/partners/logo-Presidio.png" alt="Image 8"></div>
+                            <div class="item"><img src="./assets/partners/logo-Meridianlink.png" alt="Image 9"></div>
+                            <div class="item"><img src="./assets/partners/logo-upwork.png" alt="Image 10"></div>
+                            <div class="item"><img src="./assets/partners/logo-Discover.png" alt="Image 11"></div>
+                            <div class="item"><img src="./assets/partners/logo-Presidio.png" alt="Image 12"></div>
+                            <div class="item"><img src="./assets/partners/logo-upwork.png" alt="Image 13"></div>
+                            <div class="item"><img src="./assets/partners/logo-Discover.png" alt="Image 14"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gradient-section">
+            <div class="gradient-text">
+                <h2>Empowering Container Security</h2>
+                <p>From secure networking to comprehensive protection</p>
+            </div>
+            <div class="tabs-container container">
+                <ul class="nav nav-tabs justify-content-center" id="mainTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a
+                            class="nav-link active"
+                            id="container-visibility-tab"
+                            data-bs-toggle="tab"
+                            href="#container-visibility"
+                            role="tab"
+                            aria-controls="container-visibility"
+                            aria-selected="true">Container Visibility</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a
+                            class="nav-link"
+                            id="container-networking-tab"
+                            data-bs-toggle="tab"
+                            href="#container-networking"
+                            role="tab"
+                            aria-controls="container-networking"
+                            aria-selected="false">Container Networking</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="mainTabsContent">
+                    <div
+                        class="tab-pane fade show active"
+                        id="container-visibility"
+                        role="tabpanel"
+                        aria-labelledby="container-visibility-tab">
+                        <ul
+                            class="nav nav-tabs justify-content-center mt-3"
+                            id="visibilitySubTabs"
+                            role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a
+                                    class="nav-link active"
+                                    id="comprehensive-visibility-tab"
+                                    data-bs-toggle="tab"
+                                    href="#comprehensive-visibility"
+                                    role="tab"
+                                    aria-controls="comprehensive-visibility"
+                                    aria-selected="true">Comprehensive Visibility</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a
+                                    class="nav-link"
+                                    id="vulnerability-management-tab"
+                                    data-bs-toggle="tab"
+                                    href="#vulnerability-management"
+                                    role="tab"
+                                    aria-controls="vulnerability-management"
+                                    aria-selected="false">Vulnerability Management</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a
+                                    class="nav-link"
+                                    id="configuration-security-tab"
+                                    data-bs-toggle="tab"
+                                    href="#configuration-security"
+                                    role="tab"
+                                    aria-controls="configuration-security"
+                                    aria-selected="false">Configuration Security</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a
+                                    class="nav-link"
+                                    id="network-security-tab"
+                                    data-bs-toggle="tab"
+                                    href="#network-security"
+                                    role="tab"
+                                    aria-controls="network-security"
+                                    aria-selected="false">Network Security</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a
+                                    class="nav-link"
+                                    id="threat-detection-tab"
+                                    data-bs-toggle="tab"
+                                    href="#threat-detection"
+                                    role="tab"
+                                    aria-controls="threat-detection"
+                                    aria-selected="false">Threat Detection</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a
+                                    class="nav-link"
+                                    id="incident-response-tab"
+                                    data-bs-toggle="tab"
+                                    href="#incident-response"
+                                    role="tab"
+                                    aria-controls="incident-response"
+                                    aria-selected="false">Incident Response</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content mt-3" id="visibilitySubTabsContent">
+                            <div
+                                class="tab-pane fade show active"
+                                id="comprehensive-visibility"
+                                role="tabpanel"
+                                aria-labelledby="comprehensive-visibility-tab">
+                                <div class="row">
+                                    <div class="col-md-6 content-column">
+                                        <p>SECURITY POSTURE MANAGEMENT</p>
+                                        <h3>Comprehensive Visibility</h3>
+                                        <h5>Address weaknesses and strengthen overall security posture with
+                                            comprehensive security posture overview. Identify vulnerabilities,
+                                            misconfigurations, and network exposure and proactively prioritize remediation
+                                            with actionable recommendations. Monitor security posture trends.</h5>
+                                        <button>Learn More</button>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img
+                                            src="./assets/containers/Comprehensive-visibility-1920x1029-1.png"
+                                            alt="Comprehensive Visibility Image"
+                                            class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="tab-pane fade"
+                                id="vulnerability-management"
+                                role="tabpanel"
+                                aria-labelledby="vulnerability-management-tab">
+                                <p>Content for Vulnerability Management</p>
+                            </div>
+                            <div
+                                class="tab-pane fade"
+                                id="configuration-security"
+                                role="tabpanel"
+                                aria-labelledby="configuration-security-tab">
+                                <p>Content for Configuration Security</p>
+                            </div>
+                            <div
+                                class="tab-pane fade"
+                                id="network-security"
+                                role="tabpanel"
+                                aria-labelledby="network-security-tab">
+                                <p>Content for Network Security</p>
+                            </div>
+                            <div
+                                class="tab-pane fade"
+                                id="threat-detection"
+                                role="tabpanel"
+                                aria-labelledby="threat-detection-tab">
+                                <p>Content for Threat Detection</p>
+                            </div>
+                            <div
+                                class="tab-pane fade"
+                                id="incident-response"
+                                role="tabpanel"
+                                aria-labelledby="incident-response-tab">
+                                <p>Content for Incident Response</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="tab-pane fade"
+                        id="container-networking"
+                        role="tabpanel"
+                        aria-labelledby="container-networking-tab">
+                        <ul
+                            class="nav nav-tabs justify-content-center mt-3"
+                            id="networkingSubTabs"
+                            role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a
+                                    class="nav-link active"
+                                    id="high-availability-networking-tab"
+                                    data-bs-toggle="tab"
+                                    href="#high-availability-networking"
+                                    role="tab"
+                                    aria-controls="high-availability-networking"
+                                    aria-selected="true">High-availability Networking</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a
+                                    class="nav-link"
+                                    id="cluster-mesh-tab"
+                                    data-bs-toggle="tab"
+                                    href="#cluster-mesh"
+                                    role="tab"
+                                    aria-controls="cluster-mesh"
+                                    aria-selected="false">Cluster Mesh</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a
+                                    class="nav-link"
+                                    id="network-security2-tab"
+                                    data-bs-toggle="tab"
+                                    href="#network-security2"
+                                    role="tab"
+                                    aria-controls="network-security2"
+                                    aria-selected="false">Network Security</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a
+                                    class="nav-link"
+                                    id="observability-tab"
+                                    data-bs-toggle="tab"
+                                    href="#observability"
+                                    role="tab"
+                                    aria-controls="observability"
+                                    aria-selected="false">Observability</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a
+                                    class="nav-link"
+                                    id="compliance-tab"
+                                    data-bs-toggle="tab"
+                                    href="#compliance"
+                                    role="tab"
+                                    aria-controls="compliance"
+                                    aria-selected="false">Compliance</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a
+                                    class="nav-link"
+                                    id="self-service-tab"
+                                    data-bs-toggle="tab"
+                                    href="#self-service"
+                                    role="tab"
+                                    aria-controls="self-service"
+                                    aria-selected="false">Self-service | CI/CD Integration</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content mt-3" id="networkingSubTabsContent">
+                            <div
+                                class="tab-pane fade show active"
+                                id="high-availability-networking"
+                                role="tabpanel"
+                                aria-labelledby="high-availability-networking-tab">
+                                <p>Content for High-availability Networking</p>
+                            </div>
+                            <div
+                                class="tab-pane fade"
+                                id="cluster-mesh"
+                                role="tabpanel"
+                                aria-labelledby="cluster-mesh-tab">
+                                <p>Content for Cluster Mesh</p>
+                            </div>
+                            <div
+                                class="tab-pane fade"
+                                id="network-security2"
+                                role="tabpanel"
+                                aria-labelledby="network-security2-tab">
+                                <p>Content for Network Security</p>
+                            </div>
+                            <div
+                                class="tab-pane fade"
+                                id="observability"
+                                role="tabpanel"
+                                aria-labelledby="observability-tab">
+                                <p>Content for Observability</p>
+                            </div>
+                            <div
+                                class="tab-pane fade"
+                                id="compliance"
+                                role="tabpanel"
+                                aria-labelledby="compliance-tab">
+                                <p>Content for Compliance</p>
+                            </div>
+                            <div
+                                class="tab-pane fade"
+                                id="self-service"
+                                role="tabpanel"
+                                aria-labelledby="self-service-tab">
+                                <p>Content for Self-service | CI/CD Integration</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Card Section -->
+        <section class="book-demo-card">
+            <div class="container">
+                <div class="card-container">
+                    <img
+                        src="https://www.tigera.io/app/uploads/2024/05/demo-image.png"
+                        alt="Demo Image">
+                    <div>
+                        <h2>See what Guardner can do for you</h2>
+                        <button>
+                            <a href="#">Book Live Demo</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-editions">
+            <h1>Guardner Product Editions</h1>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <div class="card text-center">
+                            <img
+                                src="https://www.tigera.io/app/uploads/2021/06/Calico-logo-badge.svg"
+                                alt="Calico Open Source">
+                            <h2>Calico Open Source</h2>
+                            <p>eBPF-based network security</p>
+                            <button class="btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-center">
+                            <img
+                                src="https://www.tigera.io/app/uploads/2021/06/Calico-logo-badge.svg"
+                                alt="Calico Enterprise">
+                            <h2>Calico Enterprise</h2>
+                            <p>Advanced security and observability</p>
+                            <button class="btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-center">
+                            <img
+                                src="https://www.tigera.io/app/uploads/2021/06/Calico-logo-badge.svg"
+                                alt="Calico Cloud">
+                            <h2>Calico Cloud</h2>
+                            <p>Managed cloud service</p>
+                            <button class="btn">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gdn-section" class="gdn-section">
+            <h2>Calico Open Source: Foundation for network security</h2>
+            <h5>Most adopted container networking and security solution</h5>
+            <div class="container gdn-cards">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <h2  class="count" data-target="8 000 000">0</h2>
+                            <p>Nodes</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <h2>1,000,000+</h2>
+                            <p>Clusters</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <h2>1,400,000,000+</h2>
+                            <p>Docker Pulls</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <h2>50,000+</h2>
+                            <p>Enterprises</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <h2>50+</h2>
+                            <p>of Fortune 100</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <h2>166+</h2>
+                            <p>Countries</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/countup.js@2.0.7/dist/countUp.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <script src="scripts.js"></script>
+    </body>
+</html>
