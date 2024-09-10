@@ -1,0 +1,1 @@
+ne style.css kam ven path /web tek .hero sepse po e bej deploy ne github pages nese vendos ta besh deploy diku tj plz hiqi /web 

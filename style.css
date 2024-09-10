@@ -37,7 +37,7 @@ body {
 }
 
 .hero {
-    background: url("/assets/images/homepage-background.jpg") no-repeat center center;
+    background: url("/web/assets/images/homepage-background.jpg") no-repeat center center;
     background-size: cover;
     padding: 100px 0;
 }
