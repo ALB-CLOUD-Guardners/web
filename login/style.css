@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.header-bar, .footer-bar {
+    background-color: #00c0ff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.form-section {
+    display: none; /* Initially hide all sections */
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #f8f9fa;
+}
+
+.form-section.active {
+    display: flex; /* Only show the active section */
+}
+
+.form-container {
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.form-container h2 {
+    font-size: 28px;
+    color: #007bff;
+}
+
+.form-container h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.input-field {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.next-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.next-button:hover {
+    background-color: #0056b3;
+}
+
+/* Dashboard Section */
+.dashboard-header {
+    background-color: #00c0ff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.header-left {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header-left i {
+    margin-right: 10px;
+}
+
+.header-right {
+    padding-right: 10px;
+}
+
+.dashboard-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.user-info {
+    background-color: #d8b8ff;
+    text-align: center;
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.dashboard-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 20px;
+    width: 100%;
+}
+
+.dashboard-card {
+    background-color: #d8b8ff;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 200px;
+    flex: 1;
+}
+
+.dashboard-footer {
+    background-color: #00c0ff;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+}

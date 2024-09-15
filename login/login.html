@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigEyE Forms</title>
+    <link rel="stylesheet" href="/login/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome -->
+    <style>
+        /* Additional styling for layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            justify-content: space-between;
+        }
+    
+        .header-bar {
+            background-color: #00cfff;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            color: white;
+            position: relative; /* To position icons inside */
+        }
+    
+        .header-right {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+    
+        .header-right i {
+            font-size: 24px;
+            margin-left: 15px;
+            cursor: pointer;
+            color: white;
+        }
+    
+        /* User description bar */
+        .user-description-bar {
+            background-color: #dab6ff;
+            text-align: center;
+            padding: 15px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: black;
+        }
+    
+        .dashboard {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+        }
+    
+        .dashboard-body {
+            text-align: center;
+        }
+    
+        .dashboard-card {
+            background-color: #dab6ff;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            width: 250px; /* Increased width */
+            height: 200px; /* Increased height */
+            display: inline-block;
+            cursor: pointer;
+            font-size: 20px; /* Increased text size */
+            text-align: center;
+            line-height: 160px; /* Center text vertically */
+        }
+    
+        .dashboard-row {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Added spacing between cards */
+            margin-bottom: 20px;
+        }
+    
+        .footer-bar {
+            background-color: #00cfff;
+            padding: 20px;
+            text-align: center;
+            font-size: 18px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-bar">
+            Guardian/Gardener
+            <div class="header-right">
+                <i class="fas fa-bars"></i> <!-- Menu Icon -->
+                <i class="fas fa-lightbulb"></i> <!-- Lightbulb Icon -->
+                <i class="fas fa-cog"></i> <!-- Settings Icon -->
+            </div>
+        </div>
+    </header>
+
+    <!-- User Description Bar -->
+    <div class="user-description-bar">
+        <h3>user description</h3>
+        <p>ex: Klesti admin@Gaurdner.zip</p>
+    </div>
+
+    <main>
+        <!-- Dashboard Section -->
+        <section id="step3" class="dashboard form-section">
+            <div class="dashboard-body">
+                <div class="dashboard-row">
+                    <div class="dashboard-card">Reports</div>
+                </div>
+                <div class="dashboard-row">
+                    <div class="dashboard-card">IAST</div>
+                    <div class="dashboard-card">Infra</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-bar">
+            Guardian Footer
+        </div>
+    </footer>
+
+    <script src="/login/script.js"></script>
+</body>
+</html>
